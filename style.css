@@ -1,0 +1,11 @@
+*{text-decoration: none;}
+body{
+    background: blanchedalmond;
+}
+
+table{
+    background: salmon;
+    font-family: sans-serif;
+    border: solid;
+    border-radius: 3% ;
+}
