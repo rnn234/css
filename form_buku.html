@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="simpan_buku.php" method="POST">
+        <fieldset align="center">
+            <legend>buku</legend>
+            <table border="0" align="center">
+                <tr>
+                    <td>no_buku</td>
+                    <td>:</td>
+                    <td><input type="text" name="no_buku"></td>
+                </tr>
+                <tr>
+                    <td>judul</td>
+                    <td>:</td>
+                    <td><input type="text" name="judul"></td>
+                </tr>
+                <tr>
+                    <td>pengarang</td>
+                    <td>:</td>
+                    <td><input type="text" name="pengarang"></td>
+                </tr>
+                <tr>
+                    <td>tahun_terbit</td>
+                    <td>:</td>
+                    <td><input type="date" name="thn_terbit" ></td>
+                </tr>
+                <tr>
+                    <td>jenis_buku</td>
+                    <td>:</td>
+                    <td><input type="radio" name="jenis_buku">fiksi
+                        <input type="radio" name="jenis_buku">non fiksi
+                    </td>
+                </tr>
+                <tr>
+                    <td>status</td>
+                    <td>:</td>
+                    <td><input type="radio" name="status">ada
+                        <input type="radio" name="status">dipinjam
+                        <input type="radio" name="status">kembali
+                    </td>
+                </tr>
+                <tr>
+                    <th><input type="submit" name="simpan"></th>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

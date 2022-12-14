@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="simpan_anggota.php" method="POST">
+        <fieldset align="center">
+            <legend>daftar anggota</legend>
+            <table border="0" align="center">
+                <tr>
+                    <td>id_anggota</td>
+                    <td>:</td>
+                    <td><input type="text" name="id_anggota"></td>
+                </tr>
+                <tr>
+                    <td>nama</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td>alamat</td>
+                    <td>:</td>
+                    <td><input type="text" name="alamat"></td>
+                </tr>
+                <tr>
+                    <td>kota</td>
+                    <td>:</td>
+                    <td>
+                        <input type="text" name="kota">
+                    </td>
+                </tr>
+                <tr>
+                    <td>no telepon</td>
+                    <td>:</td>
+                    <td><input type="number" name="no_telp"></td>
+                </tr>
+                <tr>
+                    <td>tanggal lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="tgl_lahir"></td>
+                </tr>
+                <tr>
+                    <th><input type="submit" name="simpan"></th>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
